@@ -48,4 +48,9 @@ class TwigJsFilter implements FilterInterface
     public function filterLoad(AssetInterface $asset)
     {
     }
+
+    public function __sleep() {
+        return array();
+    }
 }
+
